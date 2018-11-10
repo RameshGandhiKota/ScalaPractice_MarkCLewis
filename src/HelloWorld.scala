@@ -1,5 +1,5 @@
 object HelloWorld extends App{
-  println("Hello, World!" + 50L)
+  println("Hello, World!" + 500L)
   
   println("How many seconds?")
   val totalSeconds = scala.io.StdIn.readInt()
