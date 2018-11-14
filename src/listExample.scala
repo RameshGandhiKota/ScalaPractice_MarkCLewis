@@ -60,11 +60,11 @@ object listExample extends App{
   }
   
     
-  println("Enter inputs:")   // /list range
+  //println("Enter inputs:")   // /list range
   //println("List values are:" + readList(readInt).toString) 
-  val list = readNList
-  println("List values are:" + list.toString)
-  println("Sum of the List values are:" + sumList(list).toString)
+  //val list = readNList
+  //println("List values are:" + list.toString)
+  //println("Sum of the List values are:" + sumList(list).toString)
  
   println("Please enter Name and age till quit:")
   val dList = detailsList
