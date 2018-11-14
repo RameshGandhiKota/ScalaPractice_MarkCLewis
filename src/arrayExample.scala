@@ -13,7 +13,7 @@ object arrayExample extends App{
     if(index<ar2.length){
       ar2(index) = readInt
       readArray(ar2,index+1)
-    }else println("end of readArray")
+    }else println("end of readArray.")
   }
   
   def printArray(ar1:Array[Int],index:Int){
@@ -23,13 +23,15 @@ object arrayExample extends App{
     }
   }
   
+  def sumArray(arr:Array[Int],index:Int):Int = if(arr.length <= index) 0 else arr(index) + sumArray(arr,index+1)
+  
   
   val arr=new Array[Int](5)
   fillArray(arr,5,0)
   printArray(arr,0)
   readArray(arr,0)
   printArray(arr,0)
-  
+  println(sumArray(arr,1))
   
   
 }
