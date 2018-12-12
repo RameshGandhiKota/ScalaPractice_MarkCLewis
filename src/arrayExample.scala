@@ -6,7 +6,7 @@ object arrayExample extends App{
     if(index<ar1.length){
       ar1(index) = value
       fillArray(ar1,5,index+1)
-    } else println("End of fillArray")
+    } else println("End of fill_Array")
   }
   
   def readArray(ar2:Array[Int],index:Int){
